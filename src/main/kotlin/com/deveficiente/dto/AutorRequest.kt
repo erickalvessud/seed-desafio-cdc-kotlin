@@ -3,11 +3,8 @@ package com.deveficiente.dto
 import com.deveficiente.entity.AutorEntity
 import com.deveficiente.validators.annotations.ValorUnico
 import org.hibernate.validator.constraints.Length
-import org.springframework.util.Assert
 import javax.validation.constraints.Email
-import javax.validation.constraints.Max
 import javax.validation.constraints.NotBlank
-import kotlin.math.max
 
 data class AutorRequest(
         @field:NotBlank

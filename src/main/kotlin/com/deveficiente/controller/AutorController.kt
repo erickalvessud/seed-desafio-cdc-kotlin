@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*
 import javax.validation.Valid
 
 @RestController
-@RequestMapping("/autor")
+@RequestMapping("/autores")
 class AutorController(val autorRepository: AutorRepository) {
 
     @PostMapping
